@@ -2,8 +2,9 @@
 
 import { revalidatePath } from "next/cache"
 
+const url = process.env.NEXT_PUBLIC_BASE_URL + "/contas"
+
 export async function create(formData) {
-    const url = "http://localhost:8080/api/perfil"
 
     const options = {
         method: "POST",
