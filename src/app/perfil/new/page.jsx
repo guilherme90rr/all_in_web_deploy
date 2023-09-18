@@ -1,3 +1,5 @@
+"use client"
+
 import { create } from "@/actions/perfil";
 import Button from "@/components/Button";
 import InputText from "@/components/InputText";
