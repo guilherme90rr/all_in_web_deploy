@@ -12,7 +12,7 @@ export default async function Home() {
         <h2 className="text-2xl font-bold">Documentos</h2>
 
         <div id="data" className="text-slate-300 m-1">
-          {data.map(documentos => <DataRow page={documentos} /> )}
+          <h1>teste</h1>
         </div>
       </main>
     </>
