@@ -12,7 +12,6 @@ export default function FormPerfil() {
     const [message, setMessage] = useState("")
 
     async function handleSubmit(formData){
-        const resp = await create(formData)
         if(resp.message){
             setMessage(resp.message)
             return
